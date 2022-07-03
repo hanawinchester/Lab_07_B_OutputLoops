@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main
 {
     static String rowOne = "";
@@ -28,6 +30,25 @@ public class Main
         {
             System.out.println("*****");
         }
+
+        System.out.println("\r\n");
+
+        //EXTRA CREDIT INITIAL (H)
+        for ( int col=0; col<=4; col++)
+        {
+            System.out.println("***     ***");
+        }
+        for ( int col=0; col<=1; col++)
+        {
+            System.out.println("***********");
+        }
+        for ( int col=0; col<=4; col++)
+        {
+            System.out.println("***     ***");
+        }
+
     }
 
 }
+
+
